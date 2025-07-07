@@ -43,8 +43,8 @@ default-features = false
 features = [
   "i-implement-a-third-party-backend-and-opt-into-breaking-changes",
 ]
-git = "https://github.com/diesel-rs/diesel"
-branch = "master"
+git = "https://github.com/stormshield-kg/diesel"
+rev = "d39957995a3c247c4524c2ce9c6f2268d6a6f8c1"
 
 [dev-dependencies]
 tokio = { version = "1.12.0", features = ["rt", "macros", "rt-multi-thread"] }
@@ -58,13 +58,13 @@ default-features = false
 features = [
   "chrono"
 ]
-git = "https://github.com/diesel-rs/diesel"
-branch = "master"
+git = "https://github.com/stormshield-kg/diesel"
+rev = "d39957995a3c247c4524c2ce9c6f2268d6a6f8c1"
 
 [dev-dependencies.diesel_migrations]
 version = "2.2.0"
-git = "https://github.com/diesel-rs/diesel"
-branch = "master"
+git = "https://github.com/stormshield-kg/diesel"
+rev = "d39957995a3c247c4524c2ce9c6f2268d6a6f8c1"
 
 [features]
 default = []
