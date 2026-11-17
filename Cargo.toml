@@ -39,14 +39,14 @@ mobc = { version = ">=0.7,<0.10", optional = true }
 pin-project-lite = "0.2.17"
 
 [dependencies.diesel]
-version = "~2.3.9"
+version = "~2.4.0"
 default-features = false
 features = [
   "i-implement-a-third-party-backend-and-opt-into-breaking-changes", "std"
 ]
 
 [dependencies.diesel_migrations]
-version = "~2.3.0"
+version = "~2.4.0"
 optional = true
 
 [dev-dependencies]
@@ -57,7 +57,7 @@ assert_matches = "1.0.1"
 futures-util = { version = "0.3.17", features = ["async-await-macro"] }
 
 [dev-dependencies.diesel]
-version = "~2.3.0"
+version = "~2.4.0"
 default-features = false
 features = [
   "chrono", 
@@ -66,7 +66,7 @@ features = [
 ]
 
 [dev-dependencies.diesel_migrations]
-version = "2.3.0"
+version = "2.4.0"
 
 [features]
 default = []
